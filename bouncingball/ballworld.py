@@ -56,7 +56,7 @@ class BallWorld(object):
 	def run(self):
 		pygame.key.set_repeat(30, 30)
 		while True:
-			time_passed = self.clock.tick(30)
+			#time_passed = self.clock.tick(50)
 			self.update()
 			self.draw()
 			for e in pygame.event.get():
